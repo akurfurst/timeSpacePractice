@@ -46,8 +46,9 @@ public class Practice {
     return frequencies;
   }
 
-  // Time Complexity: 
-  // Space Complexity: 
+  // Time Complexity: O(n^2)
+  // Space Complexity: O(n^2)
+  // n = n
   // Remember to define your variables!
   public static List<Integer> evensToSquare(int n) {
     List<Integer> evens = new ArrayList<>();
@@ -57,8 +58,9 @@ public class Practice {
     return evens;
   }
 
-  // Time Complexity:
-  // Space Complexity:
+  // Time Complexity: O(r*c)
+  // Space Complexity: O(r*c)
+  // r = rows c = columns
   // Remember to define your variables!
   public static List<Integer> concatVals(Map<Integer, List<Integer>> map) {
     List<Integer> result = new ArrayList<>();
@@ -71,8 +73,8 @@ public class Practice {
     return result;
   }
 
-  // Time Complexity:
-  // Space Complexity:
+  // Time Complexity: O(1)
+  // Space Complexity: O(1)
   // Remember to define your variables!
   public static List<Character> septuple(char c) {
     List<Character> result = new ArrayList<>();
@@ -82,8 +84,9 @@ public class Practice {
     return result;
   }
 
-  // Time Complexity:
-  // Space Complexity:
+  // Time Complexity: O(r*c)
+  // Space Complexity: O(r*c)
+  // r = rows c = columns
   // Remember to define your variables!
   public static char[][] initCharRect(int rows, int cols) {
     return new char[rows][cols];
