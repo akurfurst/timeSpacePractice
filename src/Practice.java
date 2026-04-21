@@ -94,8 +94,9 @@ public class Practice {
 
   // Assume all strings in strs are of length s
   // Hint: charAt is an O(1) operation in both time and space
-  // Time Complexity:
-  // Space Complexity:
+  // Time Complexity: O(r*s)
+  // Space Complexity: O(r*s)
+  //r = strs.size() s = str.length()
   // Remember to define your variables!
   public static List<Character> concatStrings(List<String> strs) {
     List<Character> concat = new ArrayList<>();
@@ -107,8 +108,8 @@ public class Practice {
     return concat;
   }
 
-  // Time Complexity:
-  // Space Complexity: 
+  // Time Complexity: O(1)
+  // Space Complexity: O(1)
   // Remember to define your variables!
   public static int cubic(int n, int a, int b, int c, int d) {
     int result = d;
