@@ -144,9 +144,10 @@ public class Practice {
     for(int i = 0; i < nums.length; i++){
       if(!map.containsKey(nums[i])) map.put(nums[i], 1);
       else map.put(nums[i], map.get(nums[i]) + 1);
-      if(map.get(nums[i]) > count)){
+      if(map.get(nums[i]) > count){
         count = map.get(nums[i]);
         result = nums[i];
+      }
     }
 
     return result;
