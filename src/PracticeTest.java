@@ -13,4 +13,23 @@ public class PracticeTest {
     int actual = Practice.mostCommonTimeEfficient(test);
     assertEquals(6, actual);
   }
+
+  @Test
+  public void testMostCommonSpaceEfficientDuplicates(){
+    //arrange
+    int[] nums = {1, 2, 2, 3, 3, 3, 4, 4, 4, 4};
+    //act
+    int actual = Practice.mostCommonSpaceEfficient(nums);
+    //assert
+    assertEquals(4, actual);
+  }
+  @Test
+  public void testMostCommonSpaceEfficientSameAmt(){
+    //arrange
+    int[] nums = {1, 1, 1, 2, 2, 2};
+    //act
+    int actual = Practice.mostCommonSpaceEfficient(nums);
+    //assert
+    assertEquals(1, actual);
+  }
 }
